@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "online-training"
+version = "0.1.0"
+description = ""
+authors = ["ayoub <ayoub.elbiari@hrflow.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
